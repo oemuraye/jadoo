@@ -191,7 +191,7 @@ main {
 .hero-section .hero-content h2 .text-shadow img {
     position: absolute;
     bottom: 10px;
-    left: 0;
+    left: -15px;
     z-index: -1;
 }
 .hero-section .hero-content p {
@@ -213,9 +213,8 @@ main {
     height: 50px;
     width: 150px;
 }
-.hero-section img {
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
-  /*  margin-left: -40px; */
+.hero-section .hero-img {
+    padding-top: 40px;
 }
 
 
@@ -907,7 +906,7 @@ footer .copywrite {
     }
     .hero-section .hero-content h2 .text-shadow img {
         bottom: 20px;
-        left: 20px;
+        /* left: 0px; */
         width: 175px !important;
     }
     .category-section .category-content {
