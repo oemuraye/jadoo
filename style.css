@@ -460,7 +460,7 @@ main {
     position: absolute;
     z-index: -1;
     top: -90px;
-    left: 80px;
+    left: 70px;
     width: 100%;
 }
 .booking-section .ongoing-card {
@@ -617,7 +617,7 @@ main {
     z-index: -1;
     position: relative;
     top: -140px;
-    left: 50px;
+    left: 28px;
 } 
 .testimony-section .testimonies .navigate  {
     display: flex;
@@ -625,7 +625,7 @@ main {
     gap: 40px;
     position: absolute;
     top: 90px;
-    right: 0;
+    right: 5px;
     font-size: 25px;
 }
 .testimony-section .testimonies .navigate a:first-child {
