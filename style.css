@@ -909,6 +909,10 @@ footer .copywrite {
     .feedback-section .feedback-input a {
         padding: 10px 15px;
     }
+    .footer-info,
+    .footer-social {
+        margin: auto;
+    }
     .footer-contents,
     .category-section .category-content {
         grid-template-columns: 1fr;
