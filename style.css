@@ -92,12 +92,12 @@ header nav .menu a {
     display: none;
     transition: all ease 2s ;
 }
-.mobile-menu div {
+.mobile-menu > div {
     background-color: var(--basic-white);
     color: var(--basic-dark);
     padding: 20px;
 }
-.mobile-menu div a {
+.mobile-menu > div a {
     color: var(--basic-dark);
 
 }
