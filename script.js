@@ -5,7 +5,6 @@ const testing = () => {
 
   // to open menu
   hamburgerBtn.addEventListener("click", () => {
-    console.log(menu);
     menu.classList.toggle("menu-toggle");
   });
 
