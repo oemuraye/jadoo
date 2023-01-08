@@ -191,7 +191,7 @@ main {
 .hero-section .hero-content h2 .text-shadow img {
     position: absolute;
     bottom: 10px;
-    left: -15px;
+    left: -25px;
     z-index: -1;
 }
 .hero-section .hero-content p {
@@ -984,8 +984,8 @@ footer .copywrite {
 
 @media (max-width: 480px) {
     .hero-section.grid-odd-2 .hero-img img { 
-        margin: auto;
-        width: 250px;
+        /* margin: auto;
+        width: 250px; */
     }
     .hero-section .hero-details .hero-content {
         margin-top: 0px;
