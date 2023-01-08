@@ -1,5 +1,6 @@
 const menu = document.querySelector(".mobile-menu");
 const hamburgerBtn = document.querySelector(".hamburger-icon");
+const closeBtn = document.querySelector(".close-btn");
 
 const testing = () => {
 
@@ -9,9 +10,9 @@ const testing = () => {
   });
 
   // to close menu
-//   hamburgerBtn.addEventListener("click", () => {
-//     menu.classList.toggle("close-menu");
-//   });
+  closeBtn.addEventListener("click", () => {
+    menu.classList.toggle("menu-toggle");
+  });
 
   window.addEventListener("click", (e) => {
     if (e.target == menu) {

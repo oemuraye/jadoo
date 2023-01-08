@@ -113,7 +113,12 @@ header nav .menu a {
 .sign-up {
     padding: 7px 30px;
 }
-
+.close-btn {
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: end;
+}
 /* Dropdown  */
 .dropdown {
   position: relative;
