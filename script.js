@@ -6,17 +6,17 @@ const testing = () => {
   // to open menu
   hamburgerBtn.addEventListener("click", () => {
     console.log(menu);
-    menu.classList.toggle("show-menu");
+    menu.classList.toggle("menu-toggle");
   });
 
   // to close menu
-  hamburgerBtn.addEventListener("click", () => {
-    menu.classList.toggle("close-menu");
-  });
+//   hamburgerBtn.addEventListener("click", () => {
+//     menu.classList.toggle("close-menu");
+//   });
 
   window.addEventListener("click", (e) => {
     if (e.target == menu) {
-      menu.classList.remove("show-menu");
+      menu.classList.remove("menu-toggle");
     }
   });
 };
