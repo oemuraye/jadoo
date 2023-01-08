@@ -31,7 +31,7 @@ body {
 }
 .grid-odd-2 {
     display: grid;
-    grid-template-columns: 1.2fr 1.5fr;
+    grid-template-columns: 1.25fr 1.5fr;
 }
 .grid-even-2 {
     display: grid;
