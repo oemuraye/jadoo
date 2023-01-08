@@ -612,7 +612,9 @@ main {
     line-height: 1px;
     font-size: 12.6334px;
 }
-
+.testimony-section .testimony-card.next .author-img {
+    left: -20px;
+}
 .testimony-section .testimony-card.next {
     z-index: -1;
     position: relative;
